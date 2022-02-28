@@ -15,7 +15,7 @@ FROM
 	v_ClientCollectionMembers ccm
 	LEFT JOIN v_R_System rs on rs.ResourceID = ccm.ResourceID
   JOIN v_Gs_Operating_System OS on ws.resourceid = OS.ResourceID
-	INNER JOIN v_GS_COF_SQLSERVERINVENTORY MSSQL on MSSQL.ResourceID = rs.ResourceID
+	INNER JOIN v_GS_DEMO_SQLSERVERINVENTORY MSSQL on MSSQL.ResourceID = rs.ResourceID
 
 WHERE
 	ccm.CollectionID = @collectionName
