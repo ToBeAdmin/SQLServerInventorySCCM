@@ -22,11 +22,8 @@ WHERE
 
 GROUP BY
 	rs.Netbios_name0,
-	rs.Client_Version0,
-	ws.lasthwscan,
 	os.caption0,
 	os.CSDVersion0,
-	ch.lastpolicyrequest,
 	MSSQL.InstanceName0,
 	MSSQL.ProductName0,
 	MSSQL.Version0,
